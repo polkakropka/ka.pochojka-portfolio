@@ -1,0 +1,31 @@
+.styleguide-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.styleguide__color {
+  height: 50px;
+  width: 80px;
+  border: 1px solid $color-black;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.color-white {
+  background-color: $color-white;
+}
+.color-black {
+  background-color: $color-black;
+}
+.color-silver {
+  background-color: $color-silver;
+}
+.color-primary {
+  background-color: $color-primary;
+}
+.color-secondary {
+  background-color: $color-secondary;
+}
+.color-tertiary {
+  background-color: $color-tertiary;
+}
