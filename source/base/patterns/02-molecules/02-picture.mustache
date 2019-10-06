@@ -1,0 +1,10 @@
+<div class="{{imageClass}}">
+    <picture>
+        {{> atoms-picture-source(media: "min-width: 1200px", srcset: "{{src-xl}}", sizes: "{{size-xl}}")}}
+        {{> atoms-picture-source(media: "min-width: 992px", srcset: "{{src-lg}}", sizes: "{{size-lg}}")}}
+        {{> atoms-picture-source(media: "min-width: 768px", srcset: "{{src-md}}", sizes: "{{size-md}}")}}
+        {{> atoms-picture-source(media: "min-width: 576px", srcset: "{{src-sm}}", sizes: "{{size-sm}}")}}
+        {{> atoms-picture-source(media: "max-width: 575px", srcset: "{{src-xs}}", sizes: "{{size-xs}}")}}
+        {{> atoms-image(alt: "{{alt}}", src: "{{fallbackSrc}}")}}
+    </picture>
+</div>

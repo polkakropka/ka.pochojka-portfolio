@@ -1,0 +1,11 @@
+{
+  "headerNav": {
+    "listClass": "header__menu",
+    "listItem": [
+      {"listLink": "#", "listItem": "About me"},
+      {"listLink": "#", "listItem": "Skills"},
+      {"listLink": "#", "listItem": "Projects"},
+      {"listLink": "#", "listItem": "Contact"}
+    ]
+  }
+}

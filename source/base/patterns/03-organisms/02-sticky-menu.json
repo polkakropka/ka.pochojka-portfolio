@@ -1,0 +1,11 @@
+{
+  "socialLinks": {
+    "listClass": "sticky-menu__icons",
+    "listItem": [
+      {"linkItemClass":"icon-linkedin", "listLink": "#", "listItem": ""},
+      {"linkItemClass":"icon-xing","listLink": "#", "listItem": ""},
+      {"linkItemClass":"icon-resume","listLink": "#", "listItem": ""},
+      {"linkItemClass":"icon-email","listLink": "#", "listItem": ""}
+    ]
+  }
+}

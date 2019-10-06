@@ -8,8 +8,10 @@
 
 @import './00-settings/00-general';
 @import './00-settings/05-colors';
-@import './00-settings/10-fonts';
-@import './00-settings/15-paths';
+@import '00-settings/10-paths';
+@import '00-settings/15-fonts';
+@import '00-settings/20-text';
+@import '00-settings/25-page';
 
 
 // TOOLS
@@ -37,10 +39,18 @@
 //STYLEGUIDE
 @import '30-components/00-styleguide/styleguide';
 // ATOMS
+@import '30-components/05-atoms/01-icons';
 
 
 // MOLECULES
 // Molecules within the components
 
 // OGRANISMS
+
+@import '30-components/15-organisms/01-header';
+@import '30-components/15-organisms/02-sticky-menu';
+@import '30-components/15-organisms/03-stage';
+
+
+
 

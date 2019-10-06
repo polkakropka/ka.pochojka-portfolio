@@ -1,0 +1,23 @@
+@mixin header-icons {
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-size: cover;
+}
+
+.icon-email {
+  background: url("/assets/images/icons/icon-mail.svg") no-repeat;
+  @include header-icons;
+}
+.icon-linkedin {
+  background: url("/assets/images/icons/icon-linkedin.svg") no-repeat;
+  @include header-icons;
+}
+.icon-xing {
+  background: url("/assets/images/icons/icon-xing.svg") no-repeat;
+  @include header-icons;
+}
+.icon-resume {
+  background: url("/assets/images/icons/icon-resume.svg") no-repeat;
+  @include header-icons;
+}

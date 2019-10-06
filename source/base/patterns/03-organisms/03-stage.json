@@ -1,0 +1,18 @@
+{
+  "stageContainer1": {
+    "mod": "stage__container--image"
+  },
+  "stageContainer2": {
+    "mod": "stage__container--content",
+    "image": {
+      "imageClass": "stage__image",
+      "src-xl": "/assets/images/general/profile-img.png",
+      "src-lg": "/assets/images/general/profile-img.png",
+      "src-md": "/assets/images/general/profile-img.png",
+      "src-sm": "/assets/images/general/profile-img.png",
+      "src-xs": "/assets/images/general/profile-img.png",
+      "alt": "profil image",
+      "fallbackSrc": "/assets/images/general/profile-img.png"
+    }
+  }
+}

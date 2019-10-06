@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Nilland';
+  src: url(#{$font-path}Nilland.ttf.woff) format('woff'),
+  url(#{$font-path}Nilland.ttf.svg#Nilland) format('svg'),
+  url(#{$font-path}Nilland.ttf.eot),
+  url(#{$font-path}Nilland.ttf.eot?#iefix) format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,10 @@
+{
+  "imageClass": "",
+  "src-xl": "https://picsum.photos/2200/1200",
+  "src-lg": "https://picsum.photos/2200/1200",
+  "src-md": "https://picsum.photos/2200/1200",
+  "src-sm": "https://picsum.photos/2200/1200",
+  "src-xs": "https://picsum.photos/2200/1200",
+  "alt": "img",
+  "fallbackSrc": "https://picsum.photos/2200/1200"
+}

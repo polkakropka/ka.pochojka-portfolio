@@ -1,0 +1,45 @@
+{
+  "header": {
+    "headerNav": {
+      "listClass": "header__menu",
+      "listItem": [
+        {"listLink": "#", "listItem": "About me"},
+        {"listLink": "#", "listItem": "Skills"},
+        {"listLink": "#", "listItem": "Projects"},
+        {"listLink": "#", "listItem": "Contact"}
+      ]
+    }
+  },
+  "mainContent": {
+    "stickyMenu" : {
+      "socialLinks": {
+        "listClass": "sticky-menu__icons",
+        "listItem": [
+          {"linkItemClass":"icon-linkedin", "listLink": "#", "listItem": ""},
+          {"linkItemClass":"icon-xing","listLink": "#", "listItem": ""},
+          {"linkItemClass":"icon-resume","listLink": "#", "listItem": ""},
+          {"linkItemClass":"icon-email","listLink": "#", "listItem": ""}
+        ]
+      }
+    },
+    "stage": {
+      "stageContainer1": {
+        "mod": "stage__container--image"
+      },
+      "stageContainer2": {
+        "mod": "stage__container--content",
+        "image": {
+          "imageClass": "stage__image",
+          "src-xl": "/assets/images/general/profile-img.png",
+          "src-lg": "/assets/images/general/profile-img.png",
+          "src-md": "/assets/images/general/profile-img.png",
+          "src-sm": "/assets/images/general/profile-img.png",
+          "src-xs": "/assets/images/general/profile-img.png",
+          "alt": "profil image",
+          "fallbackSrc": "/assets/images/general/profile-img.png"
+        }
+      }
+    }
+  }
+
+}
