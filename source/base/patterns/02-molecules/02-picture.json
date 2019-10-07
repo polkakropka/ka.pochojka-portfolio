@@ -1,10 +1,31 @@
 {
   "imageClass": "",
-  "src-xl": "https://picsum.photos/2200/1200",
-  "src-lg": "https://picsum.photos/2200/1200",
-  "src-md": "https://picsum.photos/2200/1200",
-  "src-sm": "https://picsum.photos/2200/1200",
-  "src-xs": "https://picsum.photos/2200/1200",
-  "alt": "img",
-  "fallbackSrc": "https://picsum.photos/2200/1200"
+  "mediaXl": {
+    "media": "min-width: 1200px",
+    "src": "https://picsum.photos/2200/1200",
+    "size": ""
+  },
+  "mediaLg": {
+    "media": "min-width: 992px",
+    "src": "https://picsum.photos/2200/992",
+    "size": ""
+  },
+  "mediaMd": {
+    "media": "min-width: 768px",
+    "src": "https://picsum.photos/2200/786",
+    "size": ""
+  },
+  "mediaSm": {
+    "media": "min-width: 576px",
+    "src": "https://picsum.photos/2200/576",
+    "size": ""
+  },
+  "mediaXs": {
+    "media": "max-width: 576px",
+    "src": "https://picsum.photos/2200/576",
+    "size": ""
+  },
+  "imgClass": "",
+  "imgAlt": "img",
+  "imgSrc": "https://picsum.photos/2200/1200"
 }

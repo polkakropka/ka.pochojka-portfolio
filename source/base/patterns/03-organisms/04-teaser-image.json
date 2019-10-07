@@ -1,0 +1,18 @@
+{
+  "teaser-imageContainer1": {
+    "mod": "teaser-image__container--image",
+    "image": {
+      "imageClass": "teaser-image__image",
+      "imgAlt": "Profile Image - Kamila Pochojka",
+      "imgSrc": "/assets/images/general/profile-img.png",
+      "mediaLg": {
+        "media": "min-width: 992px",
+        "src": "/assets/images/general/profile-img.png",
+        "size": ""
+      }
+    }
+  },
+  "teaser-imageContainer2": {
+    "mod": "teaser-image__container--content"
+  }
+}

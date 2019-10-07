@@ -1,10 +1,21 @@
 <div class="{{imageClass}}">
     <picture>
-        {{> atoms-picture-source(media: "min-width: 1200px", srcset: "{{src-xl}}", sizes: "{{size-xl}}")}}
-        {{> atoms-picture-source(media: "min-width: 992px", srcset: "{{src-lg}}", sizes: "{{size-lg}}")}}
-        {{> atoms-picture-source(media: "min-width: 768px", srcset: "{{src-md}}", sizes: "{{size-md}}")}}
-        {{> atoms-picture-source(media: "min-width: 576px", srcset: "{{src-sm}}", sizes: "{{size-sm}}")}}
-        {{> atoms-picture-source(media: "max-width: 575px", srcset: "{{src-xs}}", sizes: "{{size-xs}}")}}
-        {{> atoms-image(alt: "{{alt}}", src: "{{fallbackSrc}}")}}
+        {{#mediaXl}}
+            <source media="({{media}})" srcset="{{src}}" sizes="{{size}}">
+        {{/mediaXl}}
+        {{#mediaLg}}
+            <source media="({{media}})" srcset="{{src}}" sizes="{{size}}">
+        {{/mediaLg}}
+        {{#mediaMd}}
+            <source media="({{media}})" srcset="{{src}}" sizes="{{size}}">
+        {{/mediaMd}}
+        {{#mediaSm}}
+            <source media="({{media}})" srcset="{{src}}" sizes="{{size}}">
+        {{/mediaSm}}
+        {{#mediaXs}}
+            <source media="({{media}})" srcset="{{src}}" sizes="{{size}}">
+        {{/mediaXs}}
+        <img class="{{imgClass}}" alt="{{imgAlt}}" src="{{imgSrc}}">
+
     </picture>
 </div>
