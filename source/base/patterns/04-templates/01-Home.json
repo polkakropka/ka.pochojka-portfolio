@@ -28,6 +28,36 @@
       "headingSecondaryClass": "heading-primary--sub",
       "headingPrimaryContent": "Hi,",
       "headingSecondaryContent": "I'm junior frontend developer and code lover. I create #usable, #responsive interface design with the principle that less is more."
+    },
+    "teaserImage": {
+      "teaser-imageContainer1": {
+        "mod": "teaser-image__container--image",
+        "image": {
+          "imageClass": "teaser-image__image",
+          "imgAlt": "Profile Image - Kamila Pochojka",
+          "imgSrc": "/assets/images/general/profile-img.png",
+          "mediaLg": {
+            "media": "min-width: 992px",
+            "src": "/assets/images/general/profile-img.png",
+            "size": ""
+          }
+        }
+      },
+      "teaser-imageContainer2": {
+        "mod": "teaser-image__container--content",
+        "ifText1": {
+          "textClass":"text text--lg",
+          "contentText":"Married with Creativity. In love with Challenge."
+        },
+        "ifText2": {
+          "textClass":"text",
+          "contentText":"I'm ambitious Junior Frontend Developer currently seeking for a first commercial experience. I successfully accomplished the Frontend Web Development Path by Openclassrooms.com with Bachelor's Level Degree. Experienced in a different work environment I've found what perfect connects my excellent soft skills, love to the new technologies and web design. I'm conscious that I'm on the beginning of this journey, but as a truly committed hard worker I'm ready to take this challenge and I know I will handle it."
+        },
+        "ifText3": {
+          "textClass":"text",
+          "contentText":"I'm passionate about not making the same mistakes twice. Only new mistakes!"
+        }
+      }
     }
   }
 

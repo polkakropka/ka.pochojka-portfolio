@@ -10,7 +10,7 @@
 @import './00-settings/05-colors';
 @import '00-settings/10-paths';
 @import '00-settings/15-fonts';
-@import '00-settings/25-page';
+@import '00-settings/25-variables';
 
 
 // TOOLS
@@ -32,7 +32,7 @@
 // OBJECTS
 
 // Undecorted design patterns
-@import '05-global/00-body';
+@import '05-global/00-page';
 @import '05-global/01-main-content';
 @import '05-global/02-headlines';
 @import '05-global/03-text';
@@ -54,7 +54,8 @@
 @import '30-components/15-organisms/01-header';
 @import '30-components/15-organisms/02-sticky-menu';
 @import '30-components/15-organisms/03-stage';
-@import '30-components/15-organisms/04-hero';
+@import '30-components/15-organisms/04-teaser-image';
+@import '30-components/15-organisms/05-hero';
 
 
 

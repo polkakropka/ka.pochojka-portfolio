@@ -2,6 +2,7 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
+  background-color: $color-black-opacity;
   @include breakpoint(sm) {
 
   }
@@ -25,7 +26,7 @@ header {
   }
 }
 .header__logo {
-  background-color: $color-secondary;
+  //background-color: $color-secondary;
   max-width: 300px;
   width: 30%;
   height: 100%;
@@ -50,10 +51,10 @@ header {
   display: flex;
   flex-direction: column;
 
+  font-size: 25px;
 
   @include breakpoint(sm) {
    flex-direction: row;
-   justify-content: space-between;
     width: 70%;
 
     li {

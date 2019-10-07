@@ -7,3 +7,27 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+	font-family: 'Bello Pro';
+	src: local('Bello Pro'), local('BelloPro'), url(#{$font-path}BelloPro.ttf);
+}
+
+@font-face {
+	font-family: 'Open Sans Light';
+  src: local('Open Sans Light'), local('OpenSansLight'), 
+  url(#{$font-path}OpenSans-Light.ttf) format('truetype'), 
+  
+}
+
+@font-face {
+	font-family: 'Open Sans Extra Bold';
+	src: local('Open Sans Extra Bold'), local('OpenSansExtraBold'),
+  url(#{$font-path}OpenSans-ExtraBold.ttf) format('truetype'), 
+}
+
+
+/*
+font-family: 'Open Sans Light', Helvetica, Arial, serif;
+font-family: 'Open Sans Extra Bold', Helvetica, Arial, serif;
+font-family: 'Bello Pro', Helvetica, Arial, serif;
+*/

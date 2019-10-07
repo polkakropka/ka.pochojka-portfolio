@@ -1,6 +1,6 @@
 <div class="teaser-image">
     {{#teaser-imageContainer1}}
-        <div class="teaser-image__container {{mod}}">
+        <div class="teaser-image__container image-container">
             <div class="teaser-image__content">
                 {{#image}}
                     {{> molecules-picture}}
@@ -9,9 +9,17 @@
         </div>
     {{/teaser-imageContainer1}}
     {{#teaser-imageContainer2}}
-        <div class="teaser-image__container {{mod}}">
+        <div class="teaser-image__container text-container">
             <div class="teaser-image__content">
-
+                {{#ifText1}}
+                    {{> atoms-text}}
+                {{/ifText1}}
+                {{#ifText2}}
+                    {{> atoms-text}}
+                {{/ifText2}}
+                {{#ifText3}}
+                    {{> atoms-text}}
+                {{/ifText3}}
             </div>
         </div>
     {{/teaser-imageContainer2}}

@@ -1,0 +1,41 @@
+.teaser-image {
+    width: 100%;
+    max-width: $content-width;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    background-color: $color-white;
+
+    @include breakpoint(lg) {
+        flex-direction: row;
+        height: 100vh;
+    }
+}
+.teaser-image__container {
+    display: flex;
+    justify-content: center;
+    
+}
+.image-container {
+    width: 100%;
+    @include breakpoint(lg) {
+        width: 40%;
+    }
+}
+.text-container {
+    width: 100%;
+    @include breakpoint(lg) {
+        width: 60%;
+    }
+}
+.teaser-image__content {
+    max-width: 780px;
+}
+.teaser-image__image img {
+    border-radius: 50%;
+}

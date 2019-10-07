@@ -1,0 +1,11 @@
+.text {
+    font-family: 'Open Sans Light', Helvetica, Arial, serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+
+    &--lg {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
