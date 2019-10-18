@@ -2,7 +2,7 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: $color-black-opacity;
+  background-color: $color-white;
   @include breakpoint(sm) {
 
   }
@@ -10,55 +10,106 @@ header {
 .header {
   max-width: $content-width;
   width: 100%;
-  height: 80px;
+  height: 70px;
   display: flex;
   align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 
-  @include breakpoint(sm) {
-    flex-direction: row;
-  }
-}
-.header__container {
-  display: flex;
-  @include breakpoint(sm) {
-    flex-direction: row;
-    width: 70%;
-  }
-}
-.header__logo {
-  //background-color: $color-secondary;
-  max-width: 300px;
-  width: 30%;
-  height: 100%;
-  padding: 10px;
-  border-radius: 3px;
+  position: relative;
 
-  .headline, .subheadline {
-    color: $color-white;
+  @include breakpoint(md) {
+    flex-direction: row;
+
+  }
+
+  &__logo {
+    height: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 20px;
+
+    &__headline, &__subheadline {
+
+      //color: $color-white;
+      text-transform: uppercase;
+      opacity: 1;
+
+      transition: all .9s;
+    }
+    &__headline {
+      font-family: 'Open Sans Extra Bold', Helvetica, Arial, serif;
+      font-size: 20px;
+      letter-spacing: 1px;
+    }
+    &__subheadline {
+      font-family: 'Open Sans Light', Helvetica, Arial, serif;
+      font-size: 15px;
+      letter-spacing: 7px;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     text-transform: uppercase;
-  }
-  .headline {
-    font-size: 25px;
-    letter-spacing: 1px;
-  }
-  .subheadline {
-    font-size: 18px;
-    letter-spacing: 3px;
+    font-size: 1.3rem;
+
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+
+    @include breakpoint(md) {
+      flex-direction: row;
+      justify-content: flex-end;
+      width: 70%;
+      opacity:1;
+      visibility: visible;
+      height: 100%;
+
+      li {
+        margin: 0 15px;
+
+        a {
+          font-family: 'Open Sans Extra Bold', Helvetica, Arial, serif;
+          //color: $color-white;
+          transition:color .5s;
+        }
+      }
+    }
   }
 }
 
-.header__menu {
-  display: flex;
-  flex-direction: column;
-
-  font-size: 25px;
-
-  @include breakpoint(sm) {
-   flex-direction: row;
-    width: 70%;
-
-    li {
-     margin: 0 7px;
-   }
- }
+.header .icon-menu {
+  @include breakpoint(md) {
+    display: none;
+  }
 }
+
+
+
+// HEADER AFTER SCROLL .............................................................
+.header {
+  transition: height .5s;
+  &.header-on-scroll-js {
+    height: 50px;
+    border-bottom: 4px solid #d9d9d9;
+
+    .header__logo__subheadline {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
+  &.header-darkback-js {
+    .header__logo__headline,
+    .header__logo__subheadline,
+    .header__menu li a {
+      color: $color-black;
+    }
+  }
+}
+

@@ -1,14 +1,13 @@
 <header>
     <div class="header">
         <div class="header__logo">
-            <p class="headline">Kamila Pochojka</p>
-            <p class="subheadline">Frontend Hero</p>
+            <p class="header__logo__headline">Kamila Pochojka</p>
+            <p class="header__logo__subheadline">Frontend Hero</p>
         </div>
-        <div class="header__container">
             {{#headerNav}}
                 {{> molecules-list-link}}
             {{/headerNav}}
-        </div>
+            {{> atoms-button}}
         <span class="icon-menu"></span>
     </div>
 </header>

@@ -2,17 +2,21 @@
     {{#header}}
         {{> organisms-header}}
     {{/header}}
+    {{#hero}}
+        {{> organisms-hero}}
+    {{/hero}}
     {{#mainContent}}
         <section class="main-content">
             {{#stickyMenu}}
                 {{> organisms-sticky-menu}}
             {{/stickyMenu}}
-            {{#hero}}
-                {{> organisms-hero}}
-            {{/hero}}
+
             {{#teaserImage}}
                 {{> organisms-teaser-image}}
             {{/teaserImage}}
+            {{#contentBox}}
+                {{> organisms-content-box}}
+            {{/contentBox}}
         </section>
     {{/mainContent}}
 </div>

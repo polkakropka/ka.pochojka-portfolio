@@ -11,9 +11,11 @@
 @import '00-settings/10-paths';
 @import '00-settings/15-fonts';
 @import '00-settings/25-variables';
+@import '00-settings/30-reset';
 
 
-// TOOLS
+
+// TOOLSs
 
 // The used mixins and functions are based in the tools
 
@@ -44,6 +46,8 @@
 @import '30-components/00-styleguide/styleguide';
 // ATOMS
 @import '30-components/05-atoms/01-icons';
+@import '30-components/05-atoms/02-button';
+
 
 
 // MOLECULES
@@ -56,6 +60,8 @@
 @import '30-components/15-organisms/03-stage';
 @import '30-components/15-organisms/04-teaser-image';
 @import '30-components/15-organisms/05-hero';
+@import '30-components/15-organisms/06-content-box';
+
 
 
 

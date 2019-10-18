@@ -1,0 +1,42 @@
+.content-box {
+  max-width: $content-width;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding: 50px 0 100px 0;
+
+  @include breakpoint(lg) {
+    flex-direction: row;
+  }
+  &__headline {
+    margin-bottom: 50px;
+
+    &.should-know {
+      width: 513px;
+    }
+    &.dont-care {
+      width: 450px;
+    }
+  }
+  &__container {
+    width: 100%;
+    max-width: 500px;
+
+    margin: 20px;
+
+    @include breakpoint(md) {
+    }
+  }
+
+  &__list {
+    font-family: 'Open Sans Light', Helvetica, Arial, serif;
+    font-size: 30px;
+
+    li {
+      padding: 10px;
+      border-bottom: .5px solid $color-grey;
+    }
+  }
+}

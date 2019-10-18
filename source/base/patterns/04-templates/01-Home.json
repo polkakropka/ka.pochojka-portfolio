@@ -1,64 +1,96 @@
 {
   "header": {
+    "btnContent": "Hire me",
     "headerNav": {
       "listClass": "header__menu",
       "listItem": [
-        {"listLink": "#", "listItem": "About me"},
-        {"listLink": "#", "listItem": "Skills"},
-        {"listLink": "#", "listItem": "Projects"},
-        {"listLink": "#", "listItem": "Contact"}
+        {
+          "listLink": "#",
+          "listItem": "About me"
+        },
+        {
+          "listLink": "#",
+          "listItem": "Skills"
+        },
+        {
+          "listLink": "#",
+          "listItem": "Projects"
+        }
       ]
     }
   },
+  "hero": {
+    "headingPrimaryClass": "heading-primary--main",
+    "subClass": "u-title",
+    "headingSecondaryClass": "heading-primary--sub",
+    "headingPrimaryContent": "Hi,",
+    "headingSecondaryContent": "I'm junior frontend developer and code lover. I create #usable, #responsive interface design with the principle that less is more."
+  },
   "mainContent": {
-    "stickyMenu" : {
+    "stickyMenu": {
       "socialLinks": {
         "listClass": "sticky-menu__icons",
         "listItem": [
-          {"linkItemClass":"icon-linkedin", "listLink": "#", "listItem": ""},
-          {"linkItemClass":"icon-xing","listLink": "#", "listItem": ""},
-          {"linkItemClass":"icon-resume","listLink": "#", "listItem": ""},
-          {"linkItemClass":"icon-email","listLink": "#", "listItem": ""}
+          {
+            "linkItemClass": "icon-linkedin",
+            "listLink": "#",
+            "listItem": ""
+          },
+          {
+            "linkItemClass": "icon-xing",
+            "listLink": "#",
+            "listItem": ""
+          },
+          {
+            "linkItemClass": "icon-resume",
+            "listLink": "#",
+            "listItem": ""
+          },
+          {
+            "linkItemClass": "icon-email",
+            "listLink": "#",
+            "listItem": ""
+          }
         ]
       }
     },
-    "hero": {
-      "headingPrimaryClass": "heading-primary--main",
-      "subClass": "u-title",
-      "headingSecondaryClass": "heading-primary--sub",
-      "headingPrimaryContent": "Hi,",
-      "headingSecondaryContent": "I'm junior frontend developer and code lover. I create #usable, #responsive interface design with the principle that less is more."
-    },
     "teaserImage": {
-      "teaser-imageContainer1": {
-        "mod": "teaser-image__container--image",
-        "image": {
-          "imageClass": "teaser-image__image",
-          "imgAlt": "Profile Image - Kamila Pochojka",
-          "imgSrc": "/assets/images/general/profile-img.png",
-          "mediaLg": {
-            "media": "min-width: 992px",
-            "src": "/assets/images/general/profile-img.png",
-            "size": ""
-          }
+      "imageClass": "teaser-image__image",
+      "imgAlt": "Profile Image - Kamila Pochojka",
+      "imgSrc": "/assets/images/general/profile-img.png",
+      "mediaLg": {
+        "media": "min-width: 992px",
+        "src": "/assets/images/general/profile-img.png",
+        "size": ""
+      }
+    },
+    "contentBox": {
+      "container1": {
+        "headlineContent": "6 Things you should know about me",
+        "ifList": {
+          "class": "content-box__list",
+          "listItem": [
+            {"content": "Challenges"},
+            {"content": "Clean designs - less is more"},
+            {"content": "Pixel perfection"},
+            {"content": "Staying on top of the latest trends"},
+            {"content": "Organized"}
+          ]
         }
       },
-      "teaser-imageContainer2": {
-        "mod": "teaser-image__container--content",
-        "ifText1": {
-          "textClass":"text text--lg",
-          "contentText":"Married with Creativity. In love with Challenge."
-        },
-        "ifText2": {
-          "textClass":"text",
-          "contentText":"I'm ambitious Junior Frontend Developer currently seeking for a first commercial experience. I successfully accomplished the Frontend Web Development Path by Openclassrooms.com with Bachelor's Level Degree. Experienced in a different work environment I've found what perfect connects my excellent soft skills, love to the new technologies and web design. I'm conscious that I'm on the beginning of this journey, but as a truly committed hard worker I'm ready to take this challenge and I know I will handle it."
-        },
-        "ifText3": {
-          "textClass":"text",
-          "contentText":"I'm passionate about not making the same mistakes twice. Only new mistakes!"
+      "container2": {
+        "headlineContent": "6 Things you don't care about me",
+        "ifList": {
+          "class": "content-box__list",
+          "listItem": [
+            {"content": "Travelling"},
+            {"content": "Coffee addicted"},
+            {"content": "Loving Colors"},
+            {"content": "Speaking to fast"},
+            {"content": "Still didn't watch Star Wars"}
+          ]
         }
       }
     }
   }
-
 }

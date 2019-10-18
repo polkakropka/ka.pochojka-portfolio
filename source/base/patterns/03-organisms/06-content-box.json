@@ -1,0 +1,24 @@
+{
+ "container1": {
+   "headlineContent": "6 Things you should know",
+   "ifList": {
+     "listItem": [
+       {"content": "content 1"},
+       {"content": "content 1"},
+       {"content": "content 1"},
+       {"content": "content 1"}
+     ]
+   }
+ },
+  "container2": {
+    "headlineContent": " 6 Things you don't care",
+    "ifList": {
+      "listItem": [
+        {"content": "content 1"},
+        {"content": "content 1"},
+        {"content": "content 1"},
+        {"content": "content 1"}
+      ]
+    }
+  }
+}

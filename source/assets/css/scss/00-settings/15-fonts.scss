@@ -14,15 +14,14 @@
 
 @font-face {
 	font-family: 'Open Sans Light';
-  src: local('Open Sans Light'), local('OpenSansLight'), 
-  url(#{$font-path}OpenSans-Light.ttf) format('truetype'), 
+    src: local('Open Sans Light'), local('OpenSansLight'), url(#{$font-path}OpenSans-Light.ttf) format('truetype');
   
 }
 
 @font-face {
 	font-family: 'Open Sans Extra Bold';
 	src: local('Open Sans Extra Bold'), local('OpenSansExtraBold'),
-  url(#{$font-path}OpenSans-ExtraBold.ttf) format('truetype'), 
+  url(#{$font-path}OpenSans-ExtraBold.ttf) format('truetype');
 }
 
 
