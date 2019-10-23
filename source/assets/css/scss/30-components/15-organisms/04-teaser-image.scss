@@ -1,6 +1,7 @@
 .teaser-image {
     width: 100%;
     max-width: $content-width;
+    margin: 0 auto;
     height: 100%;
     padding: 100px 0;
 
@@ -8,6 +9,8 @@
     flex-direction:column-reverse;
     justify-content: center;
     align-items: center;
+
+    border-bottom: 1px solid $color-border;
 
     @include breakpoint(lg) {
         flex-direction:row;
@@ -29,5 +32,13 @@
     }
     &__image img {
         border-radius: 50%;
+        max-width: 280px;
+        @include breakpoint(lg) {
+            max-width: 300px;
+        }
+        @include breakpoint(xl) {
+            max-width: 350px;
+        }
+
     }
 }
