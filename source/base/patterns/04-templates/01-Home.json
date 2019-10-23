@@ -23,8 +23,10 @@
     "headingPrimaryClass": "heading-primary--main",
     "subClass": "u-title",
     "headingSecondaryClass": "heading-primary--sub",
-    "headingPrimaryContent": "Hi,",
-    "headingSecondaryContent": "I'm junior frontend developer and code lover. I create #usable, #responsive interface design with the principle that less is more."
+    "headingPrimaryContent": "",
+    "headingSecondaryContent": "#Frontend Developer",
+    "headingSecondaryContent2": "#code lover",
+    "headingSecondaryContent3": "#ux passionate"
   },
   "mainContent": {
     "stickyMenu": {
@@ -33,7 +35,7 @@
         "listItem": [
           {
             "linkItemClass": "icon-linkedin",
-            "listLink": "#",
+            "listLink": "https://www.linkedin.com/in/kamila-p-882687152/",
             "listItem": ""
           },
           {
@@ -57,10 +59,10 @@
     "teaserImage": {
       "imageClass": "teaser-image__image",
       "imgAlt": "Profile Image - Kamila Pochojka",
-      "imgSrc": "/assets/images/general/profile-img.png",
+
       "mediaLg": {
         "media": "min-width: 992px",
-        "src": "/assets/images/general/profile-img.png",
+        "src": "/assets/images/general/profil.jpeg",
         "size": ""
       }
     },
@@ -92,5 +94,13 @@
         }
       }
     }
+  },
+  "footer": {
+    "listItem": [
+      {"listLink": "https://www.linkedin.com/in/kamila-p-882687152/", "linkItemClass": "icon-linkedin", "listItem": ""},
+      {"listLink": "", "linkItemClass": "icon-xing", "listItem": ""},
+      {"listLink": "", "linkItemClass": "icon-resume", "listItem": ""},
+      {"listLink": "", "linkItemClass": "icon-email", "listItem": ""}
+    ]
   }
 }

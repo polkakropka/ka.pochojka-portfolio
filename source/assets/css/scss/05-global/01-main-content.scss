@@ -1,13 +1,24 @@
 .main {
-  background: url("/assets/images/general/background-blue.jpg") no-repeat;
+  //background: url("/assets/images/general/background-blue.jpg") no-repeat;
   background-size: cover;
+  background-color: #000000ed;
   background-attachment: fixed;
   width: 100%;
   height: 100%;
+
+  @include breakpoint(sm){
+    background-color: #313c41;
+  }
+
+
   //clip-path: polygon(0 0, 100% 1%, 100% 80%, 0 100%);
 }
 
 .main-content {
   margin: 0 $min-margin;
-  background-color: $color-white;
+  background: url("/assets/images/general/pattern.png") repeat;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
