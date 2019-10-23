@@ -1,12 +1,34 @@
 .hero {
+  position: relative;
+  background-image: url("https://cdn.picturepeople.de/5a9fe5cd56ed300014df1f14/nBoKEqalU/697ab9218324fa88c76f82860c7dc010.jpg?Expires=1603388835&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4ucGljdHVyZXBlb3BsZS5kZS81YTlmZTVjZDU2ZWQzMDAwMTRkZjFmMTQvbkJvS0VxYWxVLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2MDMzODg4MzV9fX1dfQ__&Signature=kc6Qkna2Gd~Pl0tM2gWvFdZ7w4M-gVBgNv-5ATpjEQD2n46ZBZxSx~JGNf4D~JATjKAfv436kYn7NcSZP-VtTADVWWbZ80prNrtFgXxVst48OVas403pvrwaDtpzzH946TftBPYwudpR0~rvPvetmjeJRZVVV4r-xd7Sb79JOYAWSRMmsQB~OLyJdnaZlbW3PvETl2ttpxsiJeY0DXNenu7qFbA0P3CwGT8aJxNk-lEpAC49q5aIiWTksSZOY5qr5iFJJcnyzIFKp30ui-gKQ~dDH0JiJ2FWI3yTm6d~dEyE9zczPkq84dYON8AgPuftKP9qZUYNv6lvPXLhbE4~sg__&Key-Pair-Id=APKAJ6DHJ6NGWYGSE7UA");
+  background-size: cover;
+  background-position-x: 50%;
+  background-attachment: scroll !important;
+  background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 
+  &__overlay {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(25,25,25,.6);
+    z-index: 1;
+  }
 
   &__content {
+    margin-top: 200px;
     max-width: 900px;
+    position: relative;
+    z-index: 3;
+    @include breakpoint(xl) {
+      margin-top: 250px;
+    }
   }
 }

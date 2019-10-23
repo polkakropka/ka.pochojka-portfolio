@@ -14,26 +14,41 @@
 .big {
     font-size: 235px;
     float: left;
-    line-height: 187px;
+    line-height: 175px;
 }
 .grey {
     color: $color-grey;
     text-align: left;
     line-height: 50px;
 }
+.highlight {
+    color: $color-primary;
+}
 .uppercase {
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 27px;
+    @include breakpoint(md) {
+        font-size: 50px;
+    }
 }
 .lightback {
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 20px;
+    line-height: 20px;
+    @include breakpoint(md) {
+        font-size: 30px;
+        line-height: 35px;
+    }
 }
 .small {
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
     color: grey;
-    margin-top: -10px;
+    margin-top: -7px;
+    @include breakpoint(md) {
+        font-size:20px;
+        margin-top: -10px;
+    }
 }
 .email {
     display: block;
