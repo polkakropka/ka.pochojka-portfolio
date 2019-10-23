@@ -1,0 +1,40 @@
+.footer {
+  background-color: $color-paper-grey;
+
+  margin-top: 50px;
+  padding: 20px;
+
+  &__container {
+    max-width: $content-width;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    @include breakpoint(sm) {
+      flex-direction: row;
+    }
+  }
+  &__text {
+    margin-top: 15px;
+    @include breakpoint(sm) {
+      margin-top: 0;
+      margin-right: 100px;
+    }
+  }
+  &__headline {
+    font-family: 'Open Sans', Helvetica, Arial, serif;
+  }
+  &__copy {
+
+  }
+  &__icons  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 150px;
+  }
+}

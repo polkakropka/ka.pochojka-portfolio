@@ -1,0 +1,13 @@
+<footer class="footer">
+    <div class="footer__container">
+       <div class="footer__text">
+           <p class="footer__headline">Hope to see you again!</p>
+           <p class="footer__copy">&copy; 2019 Kamila Pochojka</p>
+       </div>
+        <ul class="footer__icons">
+            {{#listItem}}
+                <li class="{{listItemClass}}"><a class="{{linkItemClass}}" href="{{listLink}}">{{listItem}}</a></li>
+            {{/listItem}}
+        </ul>
+    </div>
+</footer>
