@@ -1,10 +1,24 @@
 import $ from "jquery";
 
 const HeaderOnScroll = () => {
-    const header = $('.header');
+    const header = $('header');
     let height = 100;
-    let viewportHeight = $(window).height();
+    let viewportHeight = $(window).outerHeight() - 50;
 
+    $(window).width(function () {
+        if(window.innerWidth <= 768) {
+            header.addClass('header-xl-js');
+        } else {
+            header.removeClass('header-xl-js');
+        }
+    });
+    $(window).resize(function () {
+        if(window.innerWidth <= 768) {
+            header.addClass('header-xl-js');
+        } else {
+            header.removeClass('header-xl-js');
+        }
+    });
     $(window).scroll(function() {
         let scroll = getCurrentScroll();
         if ( scroll >= height && scroll < viewportHeight) {

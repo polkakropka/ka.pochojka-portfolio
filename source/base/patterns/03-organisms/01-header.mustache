@@ -5,9 +5,14 @@
             <p class="header__logo__subheadline">Frontend Hero</p>
         </div>
             {{#headerNav}}
-                {{> molecules-list-link}}
+                <ul class="{{listClass}}">
+                    {{#listItem}}
+                        <li class="{{listItemClass}}"><a class="{{linkItemClass}}" href="{{listLink}}">{{listItem}}</a></li>
+                    {{/listItem}}
+                    {{> atoms-button}}
+                </ul>
             {{/headerNav}}
-            {{> atoms-button}}
+
         <span class="icon-menu"></span>
     </div>
 </header>
