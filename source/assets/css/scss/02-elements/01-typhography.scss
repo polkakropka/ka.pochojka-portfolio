@@ -1,0 +1,26 @@
+h1 {
+  font-size: 4rem;
+  font-family: $font-headline;
+}
+h2 {
+  font-size: 3rem;
+  font-family: $font-headline;
+}
+h3 {
+  h2 {
+    font-size: 2rem;
+    font-family: $font-headline;
+  }
+}
+
+p {
+  color: $color-font-primary;
+  font-family: $font-text;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.headline__sub {
+  display: block;
+  font-size: 2rem;
+}

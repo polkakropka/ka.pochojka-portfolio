@@ -12,30 +12,31 @@
 @import './00-settings/15-paths';
 
 
-// TOOLS
-
-// The used mixins and functions are based in the tools
-
-
-// GENERIC
-
-// Generic content like resets and normalizes
-
+// mixins
+@import './01-mixins/media';
 
 
 // ELEMENTS
 
 // General styling of html elements and general html
+@import './02-elements/00-page';
+@import './02-elements/01-typhography';
 
+// Helpers
 
-// OBJECTS
+@import './03-helpers/00-color-classes';
+@import './03-helpers/01-global-uses';
 
-// Undecorted design patterns
+// Generic
+@import './04-generic/00-fonts';
 
-
-// HELPERS
 //STYLEGUIDE
 @import '30-components/00-styleguide/styleguide';
+
+// COMPONENTS
+@import '30-components/01-intro';
+@import '30-components/02-header-nav';
+
 // ATOMS
 
 

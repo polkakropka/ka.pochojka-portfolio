@@ -1,0 +1,14 @@
+@import "source/assets/css/scss/01-mixins/font-face";
+
+@include font-face(
+                'NotoSansJP-Regular-Alphabetic',
+                #{$font-path + '/NotoSansJP-Regular-Alphabetic'},
+                normal,
+                normal
+);
+@include font-face(
+                'NotoSansJP-Black-Alphabetic',
+                #{$font-path + '/NotoSansJP-Black-Alphabetic'},
+                bold,
+                normal
+);

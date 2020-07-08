@@ -1,3 +1,5 @@
 // PATHS
-$font-path: '../../fonts/';
-$image-path: '../../images/';
+// PATHS
+$asset-path: "../../../assets";
+$font-path: "#{$asset-path}/fonts";
+$image-path: "#{$asset-path}/images";

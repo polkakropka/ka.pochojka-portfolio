@@ -1,0 +1,30 @@
+body {
+  background-color: $color-page-background;
+  width: 100%;
+  font-family: $font-text;
+  font-size: $font-size-default;
+}
+
+.page-wrapper {
+  max-width: $page-wrapper-width;
+
+  & * {
+
+  }
+}
+
+.content-wrapper {
+  max-width: $content-wrapper-width;
+}
+
+.fullwidth {
+  width: 100%;
+}
+.content-width {
+  max-width: $content-wrapper-width;
+  margin: 0 $side-spacing;
+
+  @include media(">=tablet-portrait") {
+    margin: 0 auto;
+  }
+}

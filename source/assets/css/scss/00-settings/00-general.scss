@@ -1,0 +1,20 @@
+// content width
+$page-wrapper-width: 100%;
+$content-wrapper-width: 1180px;
+$content-wrapper-inner-width: 1080px;
+$side-spacing: 20px;
+$spacing-offset-sm: 20px;
+$spacing-offset-xl: 40px;
+
+$font-size-default: 16px !default;
+$font-headline: 'NotoSansJP-Black-Alphabetic', sans-serif;
+$font-text: 'NotoSansJP-Regular-Alphabetic', sans-serif;
+
+// breakpoint definitions ( usage: @include media(">=desktop") )
+$breakpoints: (
+   "desktop": 1200px, // xl @include media(">=desktop")
+    "tablet-landscape": 992px, // lg @include media(">=tablet-landscape")
+    "tablet-portrait": 768px, // md @include media(">=tablet-portrait")
+    "phone-landscape": 576px, // sm @include media(">=phone-landscape")
+    "phone-portrait": 575px //xs @include media("<phone-portrait")
+);
