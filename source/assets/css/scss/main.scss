@@ -21,9 +21,9 @@
 // General styling of html elements and general html
 @import './02-elements/00-page';
 @import './02-elements/01-typhography';
+@import './02-elements/02-list';
 
 // Helpers
-
 @import './03-helpers/00-color-classes';
 @import './03-helpers/01-global-uses';
 
@@ -35,7 +35,7 @@
 
 // COMPONENTS
 @import '30-components/01-intro';
-@import '30-components/02-header-nav';
+@import '30-components/02-header';
 
 // ATOMS
 
