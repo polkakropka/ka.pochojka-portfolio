@@ -1,0 +1,32 @@
+button {
+  font-family: $font-bold;
+  text-transform: uppercase;
+  padding: 10px 50px;
+  background-color: #CC5555;
+  color: #FFFCFC;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #CC5555;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: #CC5555;
+    background-color: #FFFCFC;
+    border: 1px solid transparent;
+    transition: background-color .5s;
+    cursor: pointer;
+  }
+}
+
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+
+}
+.border-gradient-purple {
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+.border-gradient-green {
+  border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+}
