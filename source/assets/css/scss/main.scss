@@ -7,7 +7,8 @@
 // the settings e.g. colors, font-sizes ...
 
 @import './00-settings/00-general';
-@import './00-settings/05-colors';
+@import './00-settings/02-colors';
+@import './00-settings/03-variables';
 @import './00-settings/10-fonts';
 @import './00-settings/15-paths';
 
@@ -22,6 +23,11 @@
 @import './02-elements/00-page';
 @import './02-elements/01-typhography';
 @import './02-elements/02-list';
+@import './02-elements/03-icons';
+@import './02-elements/04-link';
+@import './02-elements/05-button';
+
+
 
 // Helpers
 @import './03-helpers/00-color-classes';
@@ -30,12 +36,25 @@
 // Generic
 @import './04-generic/00-fonts';
 
+// Animations
+@import './05-animation/grow';
+
 //STYLEGUIDE
 @import '30-components/00-styleguide/styleguide';
+
+
+// ATOMS
+@import '10-atoms/burger-menu';
 
 // COMPONENTS
 @import '30-components/01-intro';
 @import '30-components/02-header';
+@import '30-components/03-teaser-background';
+@import '30-components/04-footer';
+@import '30-components/05-teaser-triple';
+@import '30-components/06-contact';
+
+
 
 // ATOMS
 

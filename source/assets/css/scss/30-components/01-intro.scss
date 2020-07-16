@@ -3,12 +3,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: $spacing-offset-sm;
+  position: relative;
+
+  //height: calc(70vh - #{$header-height});
+  padding-top: calc(2 * #{$spacing-offset-lg});
   margin-bottom: $spacing-offset-sm;
+
 
   @include media(">=tablet-portrait") {
     flex-direction: row;
-    margin-top: $spacing-offset-xl;
+    padding-top: calc(2 * #{$spacing-offset-xl});
     margin-bottom: $spacing-offset-xl;
   }
 
@@ -18,18 +22,29 @@
     object-fit: cover;
     border-radius: 50%;
     filter: brightness(67%);
+
   }
   &__content {
-    max-width: 500px;
+    max-width: 100%;
+    @include media(">=tablet-portrait") {
+      max-width: 60%;
+
+    }
   }
   &__title {
+    h1 {
+      margin-bottom: 30px;
+    }
     & p {
-      font-size: 25px;
+      font-size: 1.8rem;
     }
   }
   &__nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px auto;
+    max-width: 600px;
   }
   &__nav__item {
     display: flex;
@@ -37,12 +52,17 @@
     align-items: center;
 
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     margin: 0 3px;
     border-radius: 50%;
 
     transition: filter .3s;
+
+    @include media(">=tablet-portrait") {
+      width: 150px;
+      height: 150px;
+    }
 
     &:hover {
       filter: brightness(80%);
