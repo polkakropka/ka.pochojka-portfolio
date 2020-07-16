@@ -1,3 +1,28 @@
-.linkedin {
+.icon {
+  display: block;
+  cursor: pointer;
 
+}
+
+.linkedin {
+  background: url("/../assets/images/icons/icon-linkedin.svg") no-repeat;
+  background-size: contain;
+
+  width: 40px;
+  height: 30px;
+}
+.email {
+  background: url("/../assets/images/icons/icon-mail.svg") no-repeat;
+  background-size: contain;
+
+  width: 40px;
+  height: 40px;
+
+}
+.xing {
+  background: url("/../assets/images/icons/icon-xing.svg") no-repeat;
+  background-size: contain;
+
+  width: 40px;
+  height: 30px;
 }
