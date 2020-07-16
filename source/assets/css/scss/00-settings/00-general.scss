@@ -4,11 +4,14 @@ $content-wrapper-width: 1180px;
 $content-wrapper-inner-width: 1080px;
 $side-spacing: 20px;
 $spacing-offset-sm: 20px;
-$spacing-offset-xl: 40px;
+$spacing-offset-md: 40px;
+$spacing-offset-lg: 60px;
+$spacing-offset-xl: 100px;
 
 $font-size-default: 16px !default;
-$font-headline: 'NotoSansJP-Black-Alphabetic', sans-serif;
-$font-text: 'NotoSansJP-Regular-Alphabetic', sans-serif;
+$font-headline: 'OpenSans-Extrabold', sans-serif;
+$font-text: 'OpenSans-Light', sans-serif;
+$font-bold: 'OpenSans-Extrabold', sans-serif;
 
 // breakpoint definitions ( usage: @include media(">=desktop") )
 $breakpoints: (

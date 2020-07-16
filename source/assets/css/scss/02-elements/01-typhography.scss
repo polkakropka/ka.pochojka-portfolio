@@ -1,10 +1,17 @@
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: $font-headline;
+  @include media(">=tablet-portrait") {
+    font-size: 5rem;
+
+  }
 }
 h2 {
   font-size: 3rem;
   font-family: $font-headline;
+  @include media(">=tablet-portrait") {
+
+  }
 }
 h3 {
   h2 {
@@ -18,9 +25,13 @@ p {
   font-family: $font-text;
   line-height: 1.5;
   font-size: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .headline__sub {
   display: block;
-  font-size: 2rem;
+  font-size: 3rem;
+}
+.center {
+  text-align: center;
 }

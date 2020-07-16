@@ -12,3 +12,15 @@
                 bold,
                 normal
 );
+@include font-face(
+                'OpenSans-Extrabold',
+                #{$font-path + '/OpenSans-Extrabold'},
+                bold,
+                normal
+);
+@include font-face(
+                'OpenSans-Light',
+                #{$font-path + '/OpenSans-Light'},
+                bold,
+                normal
+);
