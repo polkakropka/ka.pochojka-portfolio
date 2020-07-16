@@ -1,0 +1,28 @@
+footer {
+  background-color: $color-pink;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .footer {
+
+    &__info {
+      p {
+        color:$color-white;
+      }
+    }
+
+    &__social-icons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+
+     & li {
+      position: relative;
+     }
+    }
+  }
+}
