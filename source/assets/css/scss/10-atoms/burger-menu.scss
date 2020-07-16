@@ -47,6 +47,11 @@
   top: 36px;
 }
 header.open {
+  #burger-menu span {
+    @include media("<=phone-landscape") {
+      background: $color-white;
+    }
+  }
   #burger-menu span:nth-child(1),
   #burger-menu span:nth-child(6) {
     -webkit-transform: rotate(45deg);

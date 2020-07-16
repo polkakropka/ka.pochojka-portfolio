@@ -1,6 +1,7 @@
-/**
- * Place your code here
- **/
-(function () {
-    console.log('==> Init scripts');
+import headerScroll from "./components/header";
+import burgerAnimation from "./components/burger-menu";
+
+(function() {
+   // headerScroll();
+    burgerAnimation();
 })();

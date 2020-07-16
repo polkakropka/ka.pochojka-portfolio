@@ -1,0 +1,137 @@
+header {
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 5;
+  @include media(">=phone-landscape") {
+    align-items: center;
+  }
+
+
+ &__nav {
+   background: $header-background;
+   background: linear-gradient(90deg, rgba($color-pink, 1) 0%, rgba($color-pink, 0.9) 32%, rgba($color-pink,1) 100%);
+   width:0;
+   height: $header-height-mobile;
+   opacity: 0;
+   transition:all 0.5s;
+   z-index: 1;
+   display: flex;
+   justify-content:flex-end;
+   padding: 0 20px;
+
+   @include media(">=phone-landscape") {
+     height: $header-height;
+     background: linear-gradient(90deg, rgba(227,226,231,.0) 15%, rgba(232,54,86,0.68) 73%, rgba(232,54,86,1) 100%);
+   }
+ }
+  &__btn {
+    transition: all 0.5s;
+  }
+  &__logo {
+   position: relative;
+   max-width: 0;
+   overflow: hidden;
+   //transition: all 0.5s;
+   font-weight: 600;
+   font-size: 30px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-right: auto;
+    & span {
+      color: $color-font-secondary;
+      display: block;
+      text-transform: uppercase;
+
+      &.title {
+        font-size: 1.5rem;
+      }
+    }
+ }
+ &__menu  {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+
+   @include media(">=phone-landscape") {
+     flex-direction: row;
+     justify-content: flex-end;
+   }
+
+   & li {
+     //flex: 1;
+     margin: 0 30px;
+
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     @include media("<=phone-landscape") {
+       padding: 8px 0;
+     }
+
+     & a {
+       display: inline-block;
+       color: white;
+       transition: all 0.2s;
+       text-transform: uppercase;
+       font-size: 35px;
+       @include media(">=phone-landscape") {
+         font-size: inherit;
+       }
+       
+       &:before,
+       &:after {
+         content: "";
+         bottom: 6px;
+         width: 0;
+         height: 2px;
+         display: block;
+         position: absolute;
+         background-color: $color-white;
+         transition: all 0.3s ease-in-out;
+         @include media(">=phone-landscape") {
+           bottom: 10px;
+         }
+       }
+       &:before {
+         right: 50%;
+       }
+       &:after {
+         left: 50%;
+       }
+       &:hover {
+         &:before,
+         &:after {
+           width: 50%;
+         }
+       }
+     }
+   }
+ }
+}
+body.fixed-nav {
+
+}
+header.open {
+  .header__nav {
+    width: 100%;
+    opacity: 1;
+    //box-shadow: 0 5px 0 hsla(0, 0%, 100%, 0.77);
+    transition: all 0.5s;
+  }
+  .header__btn {
+    @include media("<=phone-landscape") {
+      background: $header-background;
+    }
+  }
+}
