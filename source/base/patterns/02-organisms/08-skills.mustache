@@ -1,0 +1,13 @@
+<div class="skills content-width" id="skills">
+    <h1 class="center">My Skills</h1>
+    <ul class="skills__grid">
+    {{#listItems}}
+        <li class="skills__item">
+            <img src="{{ image }}" alt="{{ alt }}">
+            <div class="skills__item-overlay">
+                <p>{{ content }}</p>
+            </div>
+        </li>
+      {{/listItems}}
+    </ul>
+</div>

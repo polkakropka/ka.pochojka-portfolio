@@ -1,0 +1,84 @@
+{
+ "listItems": [
+   {
+     "image": "../../../assets/images/icons/html.svg",
+     "alt": "Html-5",
+     "content": "Html 5"
+   },
+   {
+     "image": "../../../assets/images/icons/css3.svg",
+     "alt": "CSS3",
+     "content": "CSS-3"
+   },
+   {
+     "image": "../../../assets/images/icons/sass.svg",
+     "alt": "SASS",
+     "content": "Sass"
+   },
+   {
+     "image": "../../../assets/images/icons/scss.png",
+     "alt": "Scss",
+     "content": "Scss"
+   },
+   {
+     "image": "../../../assets/images/icons/bootstrap.png",
+     "alt": "Bootstrap",
+     "content": "Bootstrap"
+   },
+   {
+     "image": "../../../assets/images/icons/javascript.svg",
+     "alt": "JS",
+     "content": "JavaScript"
+   },
+   {
+     "image": "../../../assets/images/icons/es6.svg",
+     "alt": "ES6",
+     "content": "ES6"
+   },
+   {
+     "image": "../../../assets/images/icons/react.svg",
+     "alt": "React",
+     "content": "React.js"
+   },
+   {
+     "image": "../../../assets/images/icons/mustache.png",
+     "alt": "Mustache",
+     "content": "Mustache"
+   },
+   {
+     "image": "../../../assets/images/icons/nunjucks.png",
+     "alt": "Nunjucks",
+     "content": "Nunjucks"
+   },
+   {
+     "image": "../../../assets/images/icons/patternlab.png",
+     "alt": "Patternlab",
+     "content": "Patternlab"
+   },
+   {
+     "image": "../../../assets/images/icons/git.png",
+     "alt": "Git",
+     "content": "Git"
+   },
+   {
+     "image": "../../../assets/images/icons/webpack.png",
+     "alt": "Webpack",
+     "content": "Webpack"
+   },
+   {
+     "image": "../../../assets/images/icons/grunt.svg",
+     "alt": "Grunt",
+     "content": "Grunt"
+   },
+   {
+     "image": "../../../assets/images/icons/gulp.svg",
+     "alt": "Gulp",
+     "content": "Gulp"
+   },
+   {
+     "image": "../../../assets/images/icons/firebase.svg",
+     "alt": "Firebase",
+     "content": "Firebase"
+   }
+ ]
+}

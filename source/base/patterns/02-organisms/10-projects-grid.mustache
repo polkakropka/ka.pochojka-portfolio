@@ -1,0 +1,15 @@
+<div class="projects-grid">
+    <ul class="projects-grid__list">
+        {{#projectsList}}
+            <li class="projects-grid__item">
+                <img src="{{ image }}" alt="{{ alt }}">
+                <div class="projects-grid__item-overlay">
+                    <h3>{{ title }}</h3>
+                    <p>{{ content }}</p>
+                    <a class="btn">{{ button1 }}</a>
+                    <a class="btn">{{ button2 }}</a>
+                </div>
+            </li>
+        {{/projectsList}}
+    </ul>
+</div>
