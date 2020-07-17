@@ -7,7 +7,7 @@ const slider = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
-        dots: false,
+        dots: true,
         rows: 0,
         arrows: false,
 
