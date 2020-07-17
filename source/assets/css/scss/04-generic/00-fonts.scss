@@ -24,3 +24,9 @@
                 bold,
                 normal
 );
+@include font-face(
+                'OpenSans-Regular',
+                #{$font-path + '/OpenSans-Regular'},
+                bold,
+                normal
+);

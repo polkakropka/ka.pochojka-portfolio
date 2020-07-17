@@ -14,10 +14,12 @@ h2 {
   }
 }
 h3 {
-  h2 {
-    font-size: 2rem;
-    font-family: $font-headline;
-  }
+  font-size: 2rem;
+  font-family: $font-headline;
+}
+h4 {
+  font-size: 1.5rem;
+  font-family: $font-text;
 }
 
 p {
@@ -34,4 +36,7 @@ p {
 }
 .center {
   text-align: center;
+}
+.special-color {
+  color: $color-lightblue;
 }
