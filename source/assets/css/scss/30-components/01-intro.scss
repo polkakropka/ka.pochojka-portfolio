@@ -10,10 +10,12 @@
   margin-bottom: $spacing-offset-sm;
 
 
+
   @include media(">=tablet-portrait") {
     flex-direction: row;
     padding-top: calc(2 * #{$spacing-offset-xl});
     margin-bottom: $spacing-offset-xl;
+    height: 100vh;
   }
 
   &__image img {
