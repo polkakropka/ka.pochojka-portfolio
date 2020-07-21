@@ -1,16 +1,20 @@
 // COLORS
 $color-white: #FFFCFC;
 $color-black: #2B2D2A;
+$color-black-default: #000;
 $color-silver: #C5C5C4;
+$color-grey: grey;
 
 //brand-colors
 $color-page-background: #fff;
 //$color-pink: #E83656;
-$color-pink: rgb(204, 85, 85);
+$color-pink: #be324b;
+//$color-pink: rgb(204, 85, 85);
 
-$color-lightblue: #61D0D4;
-$color-limegreen: #c0b816;
-//$color-limegreen: #D1C926;
+//$color-lightblue: #61D0D4;
+$color-lightblue: #009c83;
+//$color-limegreen: #c0b816;
+$color-limegreen: #f9b22c;
 $color-headline: #4D4D4D;
 $color-headline-secondary: #8B8B8B;
 $color-font-primary: #4D4D4D;
@@ -18,6 +22,7 @@ $color-font-secondary: $color-white;
 
 
 // color-hover
+$color-hover-overlay: rgba(#000, .85);
 $color-lightblue-hover: #4dbbbf;
 $color-primary: #CC5555;
 $color-secondary: #0B8280;

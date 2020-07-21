@@ -2,20 +2,25 @@
   font-family: $font-bold;
   text-transform: uppercase;
   padding: 10px 50px;
-  background-color: #CC5555;
+  background-color: $button-color;
   color: #FFFCFC;
   font-size: 20px;
   border-radius: 5px;
-  border: 1px solid #CC5555;
+  border: 1px solid$button-color;
 
   &:hover,
   &:active,
   &:focus {
-    color: #CC5555;
+    color: $button-color;
     background-color: #FFFCFC;
     border: 1px solid transparent;
     transition: background-color .5s;
     cursor: pointer;
+  }
+
+  &--small {
+    padding: 6px 30px;
+    font-size: 1rem;
   }
 }
 
