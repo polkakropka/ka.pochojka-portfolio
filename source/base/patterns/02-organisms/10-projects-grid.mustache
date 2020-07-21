@@ -1,13 +1,21 @@
 <div class="projects-grid">
+    <h2 class="center">My Private Mini-Projects</h2>
+    <h4 class="center">This are my commercial projects.</h4>
     <ul class="projects-grid__list">
         {{#projectsList}}
             <li class="projects-grid__item">
                 <img src="{{ image }}" alt="{{ alt }}">
-                <div class="projects-grid__item-overlay">
+                <div class="projects-grid__item-overlay {{mod}}">
                     <h3>{{ title }}</h3>
                     <p>{{ content }}</p>
-                    <a class="btn">{{ button1 }}</a>
-                    <a class="btn">{{ button2 }}</a>
+                    <p>{{ technologies }}</p>
+                    <div class="btn-group">
+                        <a class="btn btn--small" href="{{button1href}}" target="_blank">{{ button1 }}</a>
+                        {{#btn2}}
+                         <a class="btn btn--small" href="{{button2href}}" target="_blank">{{ button2 }}</a>
+                        {{/btn2}}
+                    </div>
+
                 </div>
             </li>
         {{/projectsList}}

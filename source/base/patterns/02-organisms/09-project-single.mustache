@@ -1,3 +1,24 @@
 <div class="project-single">
+    <h1 class="center">Explore My Mini Projects</h1>
+    <h4 class="center">This are my own private projects, which I made to improve my skills ans practise some new stuff.</h4>
 
+    <ul class="project-single__container">
+        {{#singleProjectsList}}
+            <li class="project-single__item">
+                <img src="{{ image }}" alt="{{ alt }}">
+                <div class="project-single__item-overlay {{mod}}">
+                    <h3>{{ title }}</h3>
+                    <p>{{ content }}</p>
+                    <p>{{ technologies }}</p>
+                    <div class="btn-group">
+                        <a class="btn btn--small" href="{{button1href}}" target="_blank">{{ button1 }}</a>
+                        {{#btn2}}
+                            <a class="btn btn--small" href="{{button2href}}" target="_blank">{{ button2 }}</a>
+                        {{/btn2}}
+                    </div>
+
+                </div>
+            </li>
+        {{/singleProjectsList}}
+    </ul>
 </div>

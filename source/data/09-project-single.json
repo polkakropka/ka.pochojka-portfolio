@@ -1,0 +1,12 @@
+{
+  "singleProjectsList": {
+    "mod": "visible",
+    "image": "../../../assets/images/general/portfolio.png",
+    "alt": "Html-5",
+    "title": "Portfolio",
+    "content": "Would you like to know a bit more how I did this portfolio? Check the code on github.",
+    "technologies": "HTML5, JS, SCSS, Mustache.js, Webpack, Patternlab",
+    "button1": "Code",
+    "button1href": ""
+  }
+}

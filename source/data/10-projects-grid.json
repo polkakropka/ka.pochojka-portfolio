@@ -1,9 +1,52 @@
 {
   "projectsList": [
     {
-      "image": "../../../assets/images/general/teaser-background.jpeg",
+      "mod": "visible",
+      "image": "../../../assets/images/general/portfolio.png",
       "alt": "Html-5",
-      "content": "Html 5"
+      "title": "Portfolio",
+      "content": "Would you like to know a bit more how I did this portfolio? Check the code on github.",
+      "technologies": "HTML5, JS, SCSS, Mustache.js, Webpack, Patternlab",
+      "button1": "Code",
+      "button1href": ""
+    },
+    {
+      "image": "../../../assets/images/general/restaurant-review.png",
+      "alt": "Html-5",
+      "title": "Restaurant Review App",
+      "content": "Do you want to find some place to eat around? This app will helps you to find restaurants in radius of 500m",
+      "technologies": "HTML5, JS, CSS3, Google Maps API",
+      "button1": "Website",
+      "button1href": "https://kpochojka.github.io/review_restaurant_app/",
+      "btn2": {
+        "button2": "code",
+        "button2href": "https://github.com/kpochojka/review_restaurant_app"
+
+      }
+    },
+    {
+      "image": "../../../assets/images/general/board-game.png",
+      "alt": "Html-5",
+      "title": "Turn Based Board Game",
+      "content": "Colorful Board Game - my first JS Challenge made during my studies by Openclassrooms.com. It was my 'Be or not to be [Frontend-Developer]'. Please, apologize my imperfections :-)",
+      "technologies": " HTML5, CSS3, JS, jQuery",
+      "button1": "Website",
+      "button1href": "https://kpochojka.github.io/turn-based-game/",
+      "btn2": {
+        "button2": "code",
+        "button2href": "https://github.com/kpochojka/turn-based-game"
+
+      }
+    },
+    {
+      "image": "../../../assets/images/general/portfolio.png",
+      "alt": "Html-5",
+      "title": "Project",
+      "content": "Html 5",
+      "button1": "Online",
+      "btn2": {
+        "button2": "code"
+      }
     }
   ]
 }
