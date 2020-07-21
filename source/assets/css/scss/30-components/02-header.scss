@@ -4,7 +4,7 @@ header {
   display: flex;
   flex-direction: row;
   position: fixed;
-  width: 0;
+  width: 100%;
   top: 0;
   z-index: 5;
   @include media(">=phone-landscape") {
@@ -14,7 +14,7 @@ header {
 
  &__nav {
    background: $header-background;
-   background: linear-gradient(90deg, rgba($color-pink, 1) 0%, rgba($color-pink, 0.9) 32%, rgba($color-pink,1) 100%);
+   background: linear-gradient(90deg, rgba($header-background, 1) 0%, rgba($header-background, 0.9) 32%, rgba($header-background,1) 100%);
    width:0;
    height: $header-height-mobile;
    opacity: 0;
@@ -27,7 +27,7 @@ header {
 
    @include media(">=phone-landscape") {
      height: $header-height;
-     background: linear-gradient(90deg, rgba($color-pink,.0) 15%, rgba($color-pink,0.68) 73%, rgba($color-pink,1) 100%);
+     background: linear-gradient(90deg, rgba($header-background,.0) 15%, rgba($header-background,0.68) 73%, rgba($header-background,1) 100%);
    }
  }
   &__btn {
@@ -125,7 +125,7 @@ body.fixed-nav {
 }
 header.open {
   .header {
-    width: 100%;
+    //width: 100%;
   }
   .header__nav {
     width: 100%;
