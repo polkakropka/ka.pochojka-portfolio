@@ -8,6 +8,9 @@ const slider = () => {
         slidesToScroll: 1,
         infinite: true,
         dots: true,
+        speed: 500,
+        autoplay: true,
+        autoplaySpeed: 1000,
         rows: 0,
         arrows: false,
 
