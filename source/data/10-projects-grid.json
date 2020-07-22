@@ -47,6 +47,34 @@
       "btn2": {
         "button2": "code"
       }
+    },
+    {
+      "image": "../../../assets/images/general/restaurant-review.png",
+      "alt": "Html-5",
+      "title": "Restaurant Review App",
+      "content": "Do you want to find some place to eat around? This app will helps you to find restaurants in radius of 500m",
+      "technologies": "HTML5, JS, CSS3, Google Maps API",
+      "button1": "Website",
+      "button1href": "https://kpochojka.github.io/review_restaurant_app/",
+      "btn2": {
+        "button2": "code",
+        "button2href": "https://github.com/kpochojka/review_restaurant_app"
+
+      }
+    },
+    {
+      "image": "../../../assets/images/general/restaurant-review.png",
+      "alt": "Html-5",
+      "title": "Restaurant Review App",
+      "content": "Do you want to find some place to eat around? This app will helps you to find restaurants in radius of 500m",
+      "technologies": "HTML5, JS, CSS3, Google Maps API",
+      "button1": "Website",
+      "button1href": "https://kpochojka.github.io/review_restaurant_app/",
+      "btn2": {
+        "button2": "code",
+        "button2href": "https://github.com/kpochojka/review_restaurant_app"
+
+      }
     }
   ]
 }
