@@ -2,7 +2,7 @@ const headerScroll = () => {
     const header = document.querySelector('header');
     const intro = document.querySelector('#intro');
     const nav = document.querySelector('#nav');
-    let introHeight = intro.clientHeight;
+    let introHeight = intro.clientHeight - 600;
 
     function fixNav() {
 
