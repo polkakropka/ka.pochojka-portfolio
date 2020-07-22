@@ -59,7 +59,9 @@
     margin: 0 3px;
     border-radius: 50%;
 
-    transition: filter .3s;
+    transition: all .3s;
+    box-shadow: 10px 13px 60px -16px rgba(0,0,0,0.75);
+
 
     @include media(">=tablet-portrait") {
       width: 150px;
@@ -68,6 +70,7 @@
 
     &:hover {
       filter: brightness(80%);
+      transform: scale(1.05);
     }
 
     & p {
