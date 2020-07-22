@@ -1,25 +1,35 @@
 h1 {
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-family: $font-headline;
-  @include media(">=tablet-portrait") {
+  margin-bottom: 0.5rem;
+
+  @include media(">=phone-portrait") {
     font-size: 5rem;
 
   }
 }
 h2 {
-  font-size: 3rem;
+  font-size: 2.3rem;
   font-family: $font-headline;
-  @include media(">=tablet-portrait") {
+  margin-bottom: 0.5rem;
 
+
+  @include media(">=phone-portrait") {
+    font-size: 3rem;
   }
 }
 h3 {
   font-size: 2rem;
   font-family: $font-headline;
+  margin-bottom: 0.5rem;
+
+
 }
 h4 {
   font-size: 1.5rem;
   font-family: $font-text;
+  margin-bottom: 0.5rem;
+
 }
 
 p {
@@ -28,11 +38,16 @@ p {
   line-height: 1.5;
   font-size: 1rem;
   margin-bottom: 0.5rem;
+
 }
 
 .headline__sub {
   display: block;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  @include media(">=phone-portrait") {
+    font-size: 3rem;
+
+  }
 }
 .center {
   text-align: center;
