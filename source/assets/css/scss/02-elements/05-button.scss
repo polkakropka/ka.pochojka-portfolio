@@ -1,13 +1,13 @@
 .btn {
   font-family: $font-bold;
   text-transform: uppercase;
-  padding: 10px 50px;
+  padding: 10px 45px;
   background-color: $button-color;
   color: #FFFCFC;
   font-size: 20px;
   border-radius: 5px;
   border: 1px solid$button-color;
-
+  margin-bottom: 1rem;
   &:hover,
   &:active,
   &:focus {
@@ -22,12 +22,29 @@
     padding: 6px 30px;
     font-size: 1rem;
   }
+  &--black {
+    background-color: $color-black;
+    &:hover,
+    &:active,
+    &:focus {
+      color: $color-black;
+      background-color: $color-white;
+      border: 3px solid $color-black;
+      transition: background-color .5s;
+      cursor: pointer;
+    }
+  }
+  &--border {
+    border: 2px solid $color-pink;
+    &:hover {
+      border: 2px solid $color-pink;
+    }
+  }
 }
 
 .border-gradient {
   border: 10px solid;
   border-image-slice: 1;
-
 }
 .border-gradient-purple {
   border-image-source: linear-gradient(to left, #743ad5, #d53a9d);

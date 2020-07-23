@@ -8,20 +8,19 @@
       "content": "Would you like to know a bit more how I did this portfolio? Check this code on github.",
       "technologies": "HTML5, JS, SCSS, Mustache.js, Webpack, Patternlab",
       "button1": "Code",
-      "button1href": ""
+      "button1href": "https://github.com/polkakropka/ka.pochojka-portfolio"
     },
     {
       "image": "../../../assets/images/general/restaurant-review.png",
       "alt": "Html-5",
       "title": "Restaurant Review App",
-      "content": "Do you want to find some place to eat around? This app will helps you to find restaurants in radius of 500m",
+      "content": "Do you want to find some place to eat around? This app will helps you to find restaurants in radius of 500 meters.",
       "technologies": "HTML5, JS, CSS3, Google Maps API",
       "button1": "Website",
-      "button1href": "https://kpochojka.github.io/review_restaurant_app/",
+      "button1href": "https://polkakropka.github.io/review-restaurant-app/",
       "btn2": {
         "button2": "code",
-        "button2href": "https://github.com/kpochojka/review_restaurant_app"
-
+        "button2href": "https://github.com/polkakropka/review-restaurant-app"
       }
     },
     {
@@ -31,18 +30,19 @@
       "content": "Colorful Board Game - my first JS Challenge made during my studies by Openclassrooms.com. It was my 'Be or not to be [Frontend-Developer]'. Please, apologize my imperfections :-)",
       "technologies": " HTML5, CSS3, JS, jQuery",
       "button1": "Website",
-      "button1href": "https://kpochojka.github.io/turn-based-game/",
+      "button1href": "https://polkakropka.github.io/js-board-game/",
       "btn2": {
         "button2": "code",
-        "button2href": "https://github.com/kpochojka/turn-based-game"
+        "button2href": "https://github.com/polkakropka/js-board-game"
 
       }
     },
     {
       "image": "../../../assets/images/general/portfolio.png",
       "alt": "Html-5",
-      "title": "Project",
+      "title": "Selfie Maker",
       "content": "Html 5",
+      "technologies": "HTML5, CSS3, JS, Canvas",
       "button1": "Online",
       "btn2": {
         "button2": "code"
@@ -51,7 +51,7 @@
     {
       "image": "../../../assets/images/general/restaurant-review.png",
       "alt": "Html-5",
-      "title": "Restaurant Review App",
+      "title": "Project 4",
       "content": "Do you want to find some place to eat around? This app will helps you to find restaurants in radius of 500m",
       "technologies": "HTML5, JS, CSS3, Google Maps API",
       "button1": "Website",
