@@ -7,11 +7,11 @@
 
   //height: calc(70vh - #{$header-height});
   padding-top: calc(2 * #{$spacing-offset-lg});
-  margin-bottom: $spacing-offset-sm;
+  margin-bottom: $spacing-offset-lg;
 
 
 
-  @include media(">=tablet-portrait") {
+  @include media(">=tablet-landscape") {
     flex-direction: row;
     padding-top: calc(2 * #{$spacing-offset-xl});
     margin-bottom: $spacing-offset-xl;
@@ -38,7 +38,11 @@
       margin-bottom: 30px;
     }
     & p {
-      font-size: 1.8rem;
+      font-size: 1.4rem;
+      @include media(">=phone-portrait") {
+        font-size: 1.8rem;
+
+      }
     }
   }
   &__nav {
@@ -47,6 +51,10 @@
     justify-content: space-evenly;
     margin: 40px auto;
     max-width: 600px;
+
+    @include media(">=tablet-portrait") {
+      margin: 60px auto;
+    }
   }
   &__nav__item {
     display: flex;
