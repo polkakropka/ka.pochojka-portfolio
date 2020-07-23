@@ -1,22 +1,14 @@
-const headerScroll = () => {
+const header = () => {
     const header = document.querySelector('header');
-    const intro = document.querySelector('#intro');
-    const nav = document.querySelector('#nav');
-    let introHeight = intro.clientHeight - 600;
+    const headerLinks = document.querySelectorAll('header li');
 
-    function fixNav() {
 
-        if (window.scrollY >= introHeight) {
-            //document.body.style.paddingTop = nav.offsetHeight + 'px';
-            document.body.classList.add('fixed-nav');
-        } else {
-            document.body.classList.remove('fixed-nav');
-            //document.body.style.paddingTop = 0;
-        }
-    }
-     if(header) {
-        window.addEventListener('scroll', fixNav);
-     }
+    headerLinks.forEach(item =>
+        item.addEventListener('click', function () {
+            header.classList.remove("open");
+            document.body.classList.remove('overflow-hidden');
+        })
+    )
 };
 
-export default headerScroll;
+export default header;

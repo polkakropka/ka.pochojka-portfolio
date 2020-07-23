@@ -72,6 +72,7 @@ header {
    & li {
      //flex: 1;
      padding: 8px 0;
+     position: relative;
      @include media(">=phone-landscape") {
        padding: 0;
        margin: 0 30px;
@@ -80,7 +81,6 @@ header {
        display: flex;
        justify-content: center;
        align-items: center;
-       position: relative;
      }
 
      & a {
