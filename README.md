@@ -1,12 +1,4 @@
 
-This boilerplate uses the following tools to build the needed Frontend structure:
-> Webpack 4
->
-> Pattern Lab
-
-----------
-
-
 Node Version
 -------------
 
