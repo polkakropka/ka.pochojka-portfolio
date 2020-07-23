@@ -24,6 +24,19 @@
       }
     },
     {
+      "image": "../../../assets/images/general/selfie-maker.png",
+      "alt": "Html-5",
+      "title": "Selfie Maker",
+      "content": "If you lost your phone and you have to make selfie very quickly, use this micro app!",
+      "technologies": "HTML5, CSS3, JS, Canvas, Webcam",
+      "button1": "Website",
+      "button1href": "https://polkakropka.github.io/selfie-maker/",
+      "btn2": {
+        "button2": "code",
+        "button2href": "https://github.com/polkakropka/selfie-maker"
+      }
+    },
+    {
       "image": "../../../assets/images/general/board-game.png",
       "alt": "Html-5",
       "title": "Turn Based Board Game",
@@ -38,27 +51,16 @@
       }
     },
     {
-      "image": "../../../assets/images/general/portfolio.png",
+      "image": "../../../assets/images/general/painting.png",
       "alt": "Html-5",
-      "title": "Selfie Maker",
-      "content": "Html 5",
-      "technologies": "HTML5, CSS3, JS, Canvas",
-      "button1": "Online",
-      "btn2": {
-        "button2": "code"
-      }
-    },
-    {
-      "image": "../../../assets/images/general/restaurant-review.png",
-      "alt": "Html-5",
-      "title": "Project 4",
-      "content": "Do you want to find some place to eat around? This app will helps you to find restaurants in radius of 500m",
+      "title": "Making Art with HTML5 Canvas",
+      "content": "Do you always wanted to be a painter, but you never knew how to start? Let's check this micro app!",
       "technologies": "HTML5, JS, CSS3, Google Maps API",
       "button1": "Website",
-      "button1href": "https://kpochojka.github.io/review_restaurant_app/",
+      "button1href": "https://polkakropka.github.io/canvas-art/",
       "btn2": {
         "button2": "code",
-        "button2href": "https://github.com/kpochojka/review_restaurant_app"
+        "button2href": "https://github.com/polkakropka/canvas-art"
 
       }
     },
