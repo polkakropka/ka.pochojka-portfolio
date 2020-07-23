@@ -30,3 +30,9 @@
                 bold,
                 normal
 );
+@include font-face(
+                'OpenSans-SemiBold',
+                #{$font-path + '/OpenSans-SemiBold'},
+                bold,
+                normal
+);
