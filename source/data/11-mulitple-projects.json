@@ -50,7 +50,7 @@
           "image": "../../../assets/images/general/henninger.png",
           "alt": "Html-5",
           "button1": "Code",
-          "button1href": "https://www.henninger-bier.de/i"
+          "button1href": "https://www.henninger-bier.de/"
         },
         {
           "image": "../../../assets/images/general/binding.png",
@@ -60,7 +60,7 @@
         }
       ],
       "title": "Redaberger Relaunch Part II",
-      "content": "Relaunch and modernisation of over 40 websites based on existing design. The biggest challenge was to rebuild every website using already created markup and logic to make every single page looking unique. <br> As a part of the frontend team I was refactoring existing code to make it flexible and reusable. It's important to notice, that the relaunch of one page took no longer then 6 days",
+      "content": "Relaunch and modernisation of over 40 websites based on existing design. The biggest challenge was to rebuild every website using already created markup and logic to make every single page looking unique. <br> As a part of the frontend team I was refactoring existing code to make it flexible and reusable. It's important to notice, that the relaunch of one page took no longer then 5 days",
       "technologies": "HTML5, JS, jQuery, SCSS, BEM, Mustache.js, Webpack, Patternlab, Atomic Design",
       "date": "Oktober 2019 - June 2020"
 
