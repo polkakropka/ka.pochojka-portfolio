@@ -24,12 +24,12 @@
     width: 100%;
     min-height: 300px;
     margin: 10px 0;
-    @include media(">=phone-portrait") {
+    @include media(">=tablet-portrait") {
       margin: 5px;
       width: calc(50% - 2 * 10px);
       min-height: 250px;
     }
-    @include media(">=tablet-landscape") {
+    @include media(">=desktop") {
       width: calc(33% - 2 * 5px);
       min-height: 300px;
     }
@@ -39,12 +39,11 @@
       max-width: 100%;
       object-fit: cover;
       max-height: 300px;
+      min-height: 300px;
       box-shadow: 10px 13px 60px -16px rgba(0,0,0,0.75);
-      //border: 5px solid $color-black;
+
       filter: grayscale(.7);
-      @include media(">=tablet-portrait") {
-       // max-width: 450px;
-      }
+
     }
   }
   &__item-overlay {
@@ -54,7 +53,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    //width: 100%;
     height: 100%;
 
     display: flex;
@@ -68,6 +66,10 @@
     color: $color-white;
 
     transition: all 0.3s;
+    @include media("<=desktop") {
+      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.75);
+    }
 
     &.visible {
       opacity: 1;
