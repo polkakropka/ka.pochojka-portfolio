@@ -1,0 +1,28 @@
+{
+  "socialicons": {
+    "socialiconsItem": [
+      {
+        "icon": "email",
+        "href": "mailto:kpochojka@frontend-magic.com",
+        "content": "Write me an E-mail"
+      },
+      {
+        "icon": "linkedin",
+        "href": "https://www.linkedin.com/in/kamila-p-882687152/",
+        "content": "Write me an E-mail"
+      },
+      {
+        "icon": "xing",
+        "href": "https://www.xing.com/profile/Kamila_Pochojka/cv",
+        "content": "Write me an E-mail"
+      },
+      {
+        "icon": "github",
+        "href": "https://github.com/polkakropka",
+        "content": "Write me an E-mail"
+      }
+    ]
+
+  }
+
+}

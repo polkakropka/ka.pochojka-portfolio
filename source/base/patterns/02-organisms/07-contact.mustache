@@ -1,5 +1,14 @@
 <div class="contact">
     <h2 class="center">Contact me</h2>
-    <a class="btn icon icon--email">Hire Me</a>
-    <a class="btn icon icon--github">Check my Code on GitHub</a>
+    {{#socialicons}}
+        <ul class="social-icons">
+            {{#socialiconsItem}}
+            <li class="social-icons__item">
+                <a href="{{href}}"><span class="icon {{icon}}"></span></a>
+            </li>
+             {{/socialiconsItem}}
+        </ul>
+    {{/socialicons}}
+
+
 </div>
