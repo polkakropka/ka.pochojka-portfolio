@@ -1,6 +1,6 @@
 <div class="multiple-projects" id="projects">
     <h2 class="center">My Commercial Projects</h2>
-    <h4 class="center">This are my commercial projects.</h4>
+    <h4 class="center">There are my projects I was happy to be part of during my work experience.</h4>
     {{#multipleprojects}}
     <div class="multiple-projects__item">
        <div class="multiple-projects__item__image-box">
@@ -15,8 +15,9 @@
         </div>
         <div class="multiple-projects__item__content-box">
             <h3>{{ title }}</h3>
-            <p>{{ content }}</p>
-            <p>{{ technologies }}</p>
+            <p>{{{ content }}}</p>
+            <p class="semibold">{{ technologies }}</p>
+            <p class="date">{{ date }}</p>
         </div>
 
 
