@@ -6,7 +6,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 5;
+  z-index: 6;
   @include media(">=phone-landscape") {
     align-items: center;
   }
@@ -14,24 +14,26 @@ header {
 
  &__nav {
    background: $header-background;
-   background: linear-gradient(90deg, rgba($header-background, 1) 0%, rgba($header-background, 0.9) 32%, rgba($header-background,1) 100%);
+   //background: linear-gradient(90deg, rgba($header-background, 1) 0%, rgba($header-background, 0.9) 32%, rgba($header-background,1) 100%);
    width:0;
-   height: $header-height-mobile;
+   //height: $header-height-mobile;
    opacity: 0;
    visibility: hidden;
    transition:all 0.5s;
    z-index: 1;
-   display: flex;
-   justify-content:flex-end;
+   display: none;
+
    padding: 0 20px;
 
    @include media(">=phone-landscape") {
+     display: flex;
+     justify-content:flex-end;
      height: $header-height;
      background: linear-gradient(90deg, rgba($header-background,.0) 15%, rgba($header-background,0.68) 73%, rgba($header-background,1) 100%);
    }
  }
   &__btn {
-    transition: all 0.5s;
+    //transition: all 0.5s;
   }
   &__logo {
    position: relative;
@@ -69,15 +71,16 @@ header {
 
    & li {
      //flex: 1;
-     margin: 0 30px;
+     padding: 8px 0;
+     @include media(">=phone-landscape") {
+       padding: 0;
+       margin: 0 30px;
 
-     text-align: center;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     position: relative;
-     @include media("<=phone-landscape") {
-       padding: 8px 0;
+       text-align: center;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       position: relative;
      }
 
      & a {
@@ -125,7 +128,10 @@ body.fixed-nav {
 }
 header.open {
   .header {
-    //width: 100%;
+    @include media("<=phone-landscape") {
+      height: 100%;
+      overflow: hidden;
+    }
   }
   .header__nav {
     width: 100%;
@@ -133,6 +139,9 @@ header.open {
     visibility: visible;
     //box-shadow: 0 5px 0 hsla(0, 0%, 100%, 0.77);
     transition: all 0.5s;
+    @include media("<=phone-landscape") {
+      display: flex;
+    }
   }
   .header__btn {
     @include media("<=phone-landscape") {
