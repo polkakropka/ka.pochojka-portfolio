@@ -10,7 +10,7 @@ const slider = () => {
         dots: true,
         speed: 500,
         autoplay: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 3000,
         rows: 0,
         arrows: false,
 
