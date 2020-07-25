@@ -67,16 +67,12 @@
     {
       "image": "../../../assets/images/general/placeholder.png",
       "alt": "Html-5",
-      "title": "Project",
-      "content": "Here ist coming soon a new project",
-      "technologies": "Technologies",
-      "button1": "Website",
-      "button1href": "https://kpochojka.github.io/review_restaurant_app/",
-      "btn2": {
-        "button2": "code",
-        "button2href": "https://github.com/kpochojka/review_restaurant_app"
+      "title": "New projects are coming soon....",
+      "content": "",
+      "technologies": "",
+      "button1": "GitHub",
+      "button1href": "https://github.com/polkakropka"
 
-      }
     }
   ]
 }
