@@ -29,7 +29,7 @@ header {
      display: flex;
      justify-content:flex-end;
      height: $header-height;
-     background: linear-gradient(90deg, rgba($header-background,.0) 15%, rgba($header-background,0.68) 73%, rgba($header-background,1) 100%);
+     background: linear-gradient(90deg, rgba($header-background,.0) 6%, rgba($header-background, 1) 73%, rgba($header-background,1) 100%);
    }
  }
   &__btn {
@@ -85,6 +85,7 @@ header {
 
      & a {
        display: inline-block;
+       font-family: $font-regular;
        color: white;
        transition: all 0.2s;
        text-transform: uppercase;

@@ -5,7 +5,7 @@
       "image": "../../../assets/images/general/portfolio.png",
       "alt": "Html-5",
       "title": "Portfolio",
-      "content": "Would you like to know a bit more how I did this portfolio? Check this code on github.",
+      "content": "Would you like to know a bit more about how I did this portfolio? Check this code on Github.",
       "technologies": "HTML5, JS, SCSS, Mustache.js, Webpack, Patternlab",
       "button1": "Code",
       "button1href": "https://github.com/polkakropka/ka.pochojka-portfolio"
@@ -14,7 +14,7 @@
       "image": "../../../assets/images/general/restaurant-review.png",
       "alt": "Html-5",
       "title": "Restaurant Review App",
-      "content": "Do you want to find some place to eat around? This app will helps you to find restaurants in radius of 500 meters.",
+      "content": "Do you want to find someplace to eat around? This app will help you to find restaurants in a radius of 500 meters.",
       "technologies": "HTML5, JS, CSS3, Google Maps API",
       "button1": "Website",
       "button1href": "https://polkakropka.github.io/review-restaurant-app/",
@@ -40,7 +40,7 @@
       "image": "../../../assets/images/general/board-game.png",
       "alt": "Html-5",
       "title": "Turn Based Board Game",
-      "content": "Colorful Board Game - my first JS Challenge made during my studies by Openclassrooms.com. It was my 'Be or not to be [Frontend-Developer]'. Please, apologize my imperfections :-)",
+      "content": "Colorful Board Game - my first JS Challenge made during my studies by Openclassrooms.com. It was my 'Be or not to be [Frontend-Developer]'. Please, apologize for my imperfections :-)",
       "technologies": " HTML5, CSS3, JS, jQuery",
       "button1": "Website",
       "button1href": "https://polkakropka.github.io/js-board-game/",
@@ -65,11 +65,11 @@
       }
     },
     {
-      "image": "../../../assets/images/general/restaurant-review.png",
+      "image": "../../../assets/images/general/placeholder.png",
       "alt": "Html-5",
-      "title": "Restaurant Review App",
-      "content": "Do you want to find some place to eat around? This app will helps you to find restaurants in radius of 500m",
-      "technologies": "HTML5, JS, CSS3, Google Maps API",
+      "title": "Project",
+      "content": "Here ist coming soon a new project",
+      "technologies": "Technologies",
       "button1": "Website",
       "button1href": "https://kpochojka.github.io/review_restaurant_app/",
       "btn2": {

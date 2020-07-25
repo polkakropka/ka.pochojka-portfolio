@@ -28,9 +28,9 @@
         }
       ],
       "title": "Redaberger Relaunch Part I",
-      "content": "Relaunch of 7 websites the most important brands of Radeberger-Gruppe (like Jever, Radeberger, Berliner-Pilsner) and Corporate Website. <br> I worked in this project as a part of the frontend team. I was responsible for creation of new components using compatible technologies with the First Spirit Content Management System.",
+      "content": "Relaunch of 7 websites the most important brands of Radeberger-Gruppe (like Jever, Radeberger, Berliner-Pilsner) and Corporate Website. <br> I worked on this project as a part of the frontend team. I was responsible for the creation of new components using compatible technologies with the First Spirit Content Management System.",
       "technologies": "HTML5, JS, jQuery, SCSS, BEM, Mustache.js, Webpack, Patternlab, Atomic Design",
-      "date": "December 2018 - Oktober 2019"
+      "date": "December 2018 - October 2019"
     },
     {
       "multipleprojectsImage": [
@@ -60,9 +60,9 @@
         }
       ],
       "title": "Redaberger Relaunch Part II",
-      "content": "Relaunch and modernisation of over 40 websites based on existing design. The biggest challenge was to rebuild every website using already created markup and logic to make every single page looking unique. <br> As a part of the frontend team I was refactoring existing code to make it flexible and reusable. It's important to notice, that the relaunch of one page took no longer then 5 days",
+      "content": "Relaunch and modernisation of over 40 websites based on existing design. The biggest challenge was to rebuild every website using already created markup and logic to make every single page looking unique. <br>As a part of the frontend team, I was refactoring existing code to make it flexible and reusable. It's important to notice that the relaunch of one page took no longer than 5 days.",
       "technologies": "HTML5, JS, jQuery, SCSS, BEM, Mustache.js, Webpack, Patternlab, Atomic Design",
-      "date": "Oktober 2019 - June 2020"
+      "date": "October 2019 - June 2020"
 
     }
   ]

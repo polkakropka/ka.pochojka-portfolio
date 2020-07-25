@@ -6,15 +6,16 @@
   position: relative;
 
   //height: calc(70vh - #{$header-height});
-  padding-top: calc(2 * #{$spacing-offset-lg});
+  padding-top:$spacing-offset-xl;
   margin-bottom: $spacing-offset-lg;
-
 
 
   @include media(">=tablet-landscape") {
     flex-direction: row;
-    padding-top: calc(2 * #{$spacing-offset-xl});
+
     margin-bottom: $spacing-offset-xl;
+  }
+  @include media(">=desktop") {
     height: 100vh;
   }
 
