@@ -3,12 +3,12 @@
    {
      "image": "../../../assets/images/icons/html.svg",
      "alt": "Html-5",
-     "content": "Html 5"
+     "content": "Html5"
    },
    {
      "image": "../../../assets/images/icons/css3.svg",
      "alt": "CSS3",
-     "content": "CSS-3"
+     "content": "CSS3"
    },
    {
      "image": "../../../assets/images/icons/sass.svg",
@@ -36,9 +36,19 @@
      "content": "ES6"
    },
    {
+     "image": "../../../assets/images/icons/typescript.png",
+     "alt": "TypeScript",
+     "content": "Typescript"
+   },
+   {
      "image": "../../../assets/images/icons/react.svg",
      "alt": "React",
-     "content": "React.js"
+     "content": "React"
+   },
+   {
+     "image": "../../../assets/images/icons/redux.svg",
+     "alt": "Redux",
+     "content": "Redux"
    },
    {
      "image": "../../../assets/images/icons/mustache.png",
@@ -79,6 +89,16 @@
      "image": "../../../assets/images/icons/firebase.svg",
      "alt": "Firebase",
      "content": "Firebase"
+   },
+   {
+     "image": "../../../assets/images/icons/jira.png",
+     "alt": "Jira",
+     "content": "Jira"
+   },
+   {
+     "image": "../../../assets/images/icons/confluence.png",
+     "alt": "Confluence",
+     "content": "Confluence"
    }
  ]
 }

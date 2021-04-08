@@ -11,6 +11,15 @@
       "button1href": "https://github.com/polkakropka/ka.pochojka-portfolio"
     },
     {
+      "image": "../../../assets/images/general/job-app.png",
+      "alt": "Html-5",
+      "title": "Job Seraching App",
+      "content": "Work in progress... but you can check the code!",
+      "technologies": "React, TypeScript, Redux, API",
+      "button1": "Code",
+      "button1href": "https://github.com/polkakropka/react-jobapp"
+    },
+    {
       "image": "../../../assets/images/general/restaurant-review.png",
       "alt": "Html-5",
       "title": "Restaurant Review App",
@@ -63,16 +72,6 @@
         "button2href": "https://github.com/polkakropka/canvas-art"
 
       }
-    },
-    {
-      "image": "../../../assets/images/general/placeholder.png",
-      "alt": "Html-5",
-      "title": "New projects are coming soon....",
-      "content": "",
-      "technologies": "",
-      "button1": "GitHub",
-      "button1href": "https://github.com/polkakropka"
-
     }
   ]
 }
